@@ -7,3 +7,32 @@
 .username {
   font-size: 50px;
 }
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+.login-form input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  color: wheat;
+  font-size: 25px;
+
+  width: 400px;
+  height: 30px;
+}
+.login-form input::placeholder {
+  color: wheat;
+  text-align: center;
+  font-size: 25px;
+}
+
+.login-form input:focus {
+  outline: none;
+}

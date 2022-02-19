@@ -1,0 +1,32 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.todo-form input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+  color: wheat;
+
+  width: 400px;
+  height: 30px;
+}
+
+.todo-form input::placeholder {
+  color: wheat;
+  text-align: center;
+}
+
+.todo-form input:focus {
+  outline: none;
+}
+
+.todo-button {
+  background-color: transparent;
+  border: 0;
+}

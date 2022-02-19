@@ -4,6 +4,7 @@
 @import "greetings.css";
 @import "to-do.css";
 @import "weather-location.css";
+@import "quote.css";
 
 body {
   font-family: "Open Sans", sans-serif;
