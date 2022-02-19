@@ -3,9 +3,13 @@
 @import "clock.css";
 @import "log-in.css";
 @import "to-do.css";
-@import "weather-time.css";
+@import "weather-location.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+}
+
+.hidden {
+  display: none;
 }
