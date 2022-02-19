@@ -1,0 +1,17 @@
+.clock-box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 200px;
+  margin-bottom: -30px;
+}
+
+.clock {
+  font-size: 100px;
+  letter-spacing: -10px;
+  margin-right: 15px;
+  margin-bottom: -30px;
+}

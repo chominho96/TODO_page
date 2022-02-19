@@ -1,4 +1,5 @@
 const clock = document.querySelector(".clock");
+const ampm = document.querySelector(".am-pm");
 
 function clockUpdate() {
   // update clock every second
@@ -22,7 +23,8 @@ function clockUpdate() {
   const second = String(time.getSeconds()).padStart(2, "0");
 
   // set time
-  clock.innerText = `${hour} : ${minute} : ${second} ${AM_PM}`;
+  clock.innerText = `${hour} : ${minute} : ${second}`;
+  ampm.innerText = AM_PM;
 }
 
 clockUpdate();

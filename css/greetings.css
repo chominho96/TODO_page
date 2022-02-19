@@ -1,0 +1,9 @@
+.username-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  font-size: 50px;
+}

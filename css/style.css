@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 @import "clock.css";
-@import "log-in.css";
+@import "greetings.css";
 @import "to-do.css";
 @import "weather-location.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  color: white;
 }
 
 .hidden {

@@ -8,8 +8,15 @@
     <title>TODO</title>
   </head>
   <body>
-    <h2 class="clock">00:00:00</h2>
-    <h2 class="username hidden"></h2>
+    <div class="clock-box">
+      <h2 class="clock">00:00:00</h2>
+      <h3 class="am-pm">AM</h3>
+    </div>
+
+    <div class="hidden username-box">
+      <h2 class="username hidden"></h2>
+    </div>
+
     <form class="login-form">
       <input
         required
@@ -17,7 +24,7 @@
         type="text"
         placeholder="What is your name?"
       />
-      <button>Log in</button>
+      <button>Join!</button>
     </form>
 
     <form class="todo-form">
@@ -40,6 +47,5 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather-location.js"></script>
-    <script src="js/log-in.js"></script>
   </body>
 </html>
